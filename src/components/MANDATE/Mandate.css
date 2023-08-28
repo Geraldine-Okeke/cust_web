@@ -1,0 +1,14 @@
+.bg {
+  background-image: url('./images/Mandate_bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto; /* Allow the height to adjust based on the image */
+}
+.sec3 img{
+  height: 200px;
+}
+.round{
+  width: 400px;
+  height: 300px;
+}

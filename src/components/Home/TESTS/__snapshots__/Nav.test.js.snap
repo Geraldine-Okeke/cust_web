@@ -1,0 +1,223 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nav component snapshot 1`] = `
+<div>
+  <nav
+    class="bg-transparent fixed top-0 w-full flex flex-row  transition-all duration-300 z-30 h-auto min-h-[50px] custom-nav  "
+  >
+    <div
+      class="logo"
+    >
+      <img
+        alt="logo"
+        class="w-16 h-16"
+        src="nav-image.png"
+      />
+    </div>
+    <div
+      class="flex  space-x-2"
+    >
+      <ul
+        class="hidden lg:flex text-white nav-ul text-ml items-center"
+      >
+        <li
+          class="relative group"
+        >
+          <a
+            class="nav-link border-b-2 border-green-500"
+            href="/"
+          >
+            HOME
+          </a>
+        </li>
+        <li
+          class=" whitespace-nowrap relative group"
+        >
+          <a
+            class="nav-link "
+            href="/MANDATE/Mandate"
+          >
+            OUR MANDATE
+          </a>
+        </li>
+        <li
+          class=" whitespace-nowrap relative group"
+        >
+          <a
+            class="nav-link "
+            href="/Programs/Programs"
+          >
+            PROGRAMS
+          </a>
+          <ul
+            class="absolute hidden group-hover:block blue rounded-lg font-bold p-2 mt-1 space-y-2 left-0"
+          >
+            <li>
+              <a
+                class="block hover:text-gray-800 "
+                href="/"
+              >
+                ARTS
+              </a>
+            </li>
+            <li>
+              <a
+                class="block hover:text-gray-800"
+                href="/"
+              >
+                LEADERSHIP
+              </a>
+            </li>
+            <li>
+              <a
+                class="block hover:text-gray-800"
+                href="/"
+              >
+                ENTREPRENEURSHIP
+              </a>
+            </li>
+            <li>
+              <a
+                class="block hover:text-gray-800"
+                href="/"
+              >
+                FOOD SHELTER
+              </a>
+            </li>
+            <li>
+              <a
+                class="block hover:text-gray-800"
+                href="/"
+              >
+                SBG AWARENESS
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li
+          class=" whitespace-nowrap relative group"
+        >
+          <a
+            class="nav-link "
+            href="/TRIBE/Tribe"
+          >
+            OUR TRIBE
+          </a>
+          <ul
+            class="absolute hidden group-hover:block blue rounded-lg font-bold p-2 mt-1 space-y-2 left-0"
+          >
+            <li>
+              <a
+                class="block hover:text-gray-800"
+                href="/"
+              >
+                BOARD OF DIRECTORS
+              </a>
+            </li>
+            <li>
+              <a
+                class="block hover:text-gray-800"
+                href="/"
+              >
+                EXECUTIVE ADVISORY
+              </a>
+            </li>
+            <li>
+              <a
+                class="block hover:text-gray-800"
+                href="/"
+              >
+                DEVELOPMENT TEAM
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li
+          class=" whitespace-nowrap relative group"
+        >
+          <a
+            href="/NEWS/News"
+          >
+            NEWS
+          </a>
+        </li>
+        <li
+          class=" whitespace-nowrap relative group"
+        >
+          <a
+            href="/BLOG/Blog"
+          >
+            BLOG
+          </a>
+        </li>
+        <li
+          class=" whitespace-nowrap relative group"
+        >
+          <a
+            class="nav-link "
+            href="/CONTACT/Contact"
+          >
+            CONTACT US
+          </a>
+        </li>
+        <li
+          class=" whitespace-nowrap  relative group"
+        >
+          <a
+            class="nav-link  w-32 "
+            href="/GET_INVOLVED/GetInvolved"
+          >
+            GET INVOLVED
+          </a>
+          <ul
+            class="absolute hidden group-hover:block blue rounded-lg font-bold p-2 mt-1 space-y-2 left-0"
+          >
+            <li>
+              <a
+                class="block hover:text-gray-800"
+                href="/GET_INVOLVED/Volunteer"
+              >
+                AS A VOLUNTEER
+              </a>
+            </li>
+            <li>
+              <a
+                class="block hover:text-gray-800"
+                href="/GET_INVOLVED/Sponsor"
+              >
+                AS A SPONSOR
+              </a>
+            </li>
+            <li>
+              <a
+                class="block hover:text-gray-800"
+                href="/GET_INVOLVED/Mentor"
+              >
+                AS A MENTOR
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li
+          class=" "
+        >
+          <a
+            href="/"
+          >
+            <button
+              class="bg-green-600 -mr-20 float-right px-5 py-2 font-calibri text-base font-bold leading-7 rounded-full border-2 border-white text-white"
+            >
+              DONATE
+            </button>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <button
+      class="lg:hidden text-white text-5xl w-16 h-16 absolute right-2 top-2"
+    >
+      ☰
+    </button>
+  </nav>
+</div>
+`;

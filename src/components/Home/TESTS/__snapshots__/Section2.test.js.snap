@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Section2 component snapshot 1`] = `
+<section>
+  <div
+    className="grid grid-cols-2 gap-4 bg-gray-200 pb-10 mb-10 rounded-xl "
+  >
+    <div
+      className="mt-10"
+    >
+      <img
+        alt=""
+        className="-ml-20 mt-3"
+        src="Section2.png"
+      />
+    </div>
+    <div
+      className="mt-10"
+    >
+      <div
+        className="mt-5 mb-10"
+      >
+        <div
+          className="flex flex-col items-end"
+        >
+          <h2
+            className="text-2xl font-bold "
+          >
+            OUR MANDATE
+          </h2>
+          <hr
+            className="float-left w-20 font-extrabold border-t-2 bg-custom-yellow mb-4"
+          />
+        </div>
+        <div>
+          <p
+            className=""
+          >
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+          </p>
+        </div>
+      </div>
+      <div
+        className="flex flex-col"
+      >
+        <div
+          className=" flex flex-col items-end"
+        >
+          <h2
+            className="text-2xl font-bold"
+          >
+            OBJECTIVES
+          </h2>
+          <hr
+            className=" w-20 font-bold border-t-2 bg-custom-yellow mb-4"
+          />
+        </div>
+        <div>
+          <p
+            className=""
+          >
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+          </p>
+        </div>
+      </div>
+      <div
+        className="py-10 sm:float-right mr-0 sm:mr-20"
+      >
+        <a
+          href="/MANDATE/Mandate"
+          onClick={[Function]}
+        >
+          <button
+            className=" light-blue hover:bg-blue-600 text-black font-semibold  h px-2 rounded-full sm:w-56 w-28 h-14"
+          >
+            LEARN MORE
+          </button>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+`;

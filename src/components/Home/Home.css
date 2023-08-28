@@ -1,0 +1,53 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+.Top-main{
+  background-image: url('./Images/top_bg.png');
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+.people{
+  height: 400px;
+  overflow: visible;
+}
+.par{
+  height: 300px;
+}
+.nav-ul>li *, .logo{
+  margin-right: 40px;
+  
+}
+.custom-nav{
+  overflow-x: visible;
+}
+.nav-ul>li Link{
+  white-space: nowrap;
+}
+
+.nav-ul .get{
+  margin-right: 0;
+  padding-right: 0;
+}
+.bg-custom-teal {
+  background-color: #00586B;
+}
+.bg-custom-blue {
+  background-color: #1086A0;
+}
+.bg-custom-yellow {
+  border-color: #E3B522;
+}
+.light-blue{
+  background-color: #14BDE3;
+}
+.blue{
+  background-color: #14BDE3;
+}
+@media (max-width: 400px) {
+  .padding {
+    padding-left:20px;
+    padding-right: 20px;
+  }
+}
+
