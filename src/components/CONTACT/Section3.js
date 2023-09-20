@@ -91,7 +91,7 @@ const Section3 = () => {
         <label htmlFor="ta"className='pl-4' >Message</label> <br/>
         <button
           type="submit"
-          className={`px-4 py-2 float-right my-8 mr-10 blue w-32 font-bold text-black rounded-full hover:bg-blue-600 focus:outline-none focus:ring focus:border-blue-300 ${
+          className={`px-4 py-2 float-right my-8 mr-10 bg-blue-900 w-32 font-bold text-white rounded-full hover:bg-blue-600 focus:outline-none focus:ring focus:border-blue-300 ${
             Object.keys(formErrors).length > 0 ? 'opacity-50 cursor-not-allowed' : ''
           }`}
           disabled={Object.keys(formErrors).length > 0}

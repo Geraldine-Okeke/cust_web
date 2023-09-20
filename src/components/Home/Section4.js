@@ -22,7 +22,7 @@ export default function Section4({ title, programs, showButton }) {
       </div>
       {showButton && (
         <div className='text-center pb-10'>
-          <button className='rounded-full py-2 w-auto px-10 blue font-bold text-black'>LEARN MORE</button>
+          <button className='rounded-full py-2 w-auto px-10 bg-blue-900 text-white font-bold'>LEARN MORE</button>
         </div>
       )}
     </>

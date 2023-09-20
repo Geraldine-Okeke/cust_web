@@ -37,8 +37,8 @@ const Nav = () => {
     <>
       <nav
       className={`${
-        isScrolled ? 'blue' : 'bg-transparent'
-      } fixed top-0 w-full  flex flex-row  transition-all duration-300 z-30 h-auto min-h-[50px] custom-nav  `}
+        isScrolled ? 'bg-blue-900' : 'bg-transparent'
+      } fixed top-0 w-full pl-10 flex flex-row  transition-all duration-300 z-30 h-auto min-h-[50px] custom-nav  `}
     >
       <div className="logo">
           <img src={logo} alt='logo' className='w-16 h-16'/>

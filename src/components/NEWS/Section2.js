@@ -7,7 +7,7 @@ export default function Section2() {
       <div className="flex px-3 flex-col md:flex-row">
         <div className="md:w-1/2  w-auto">
           <span className="font-bold text-black md:p-4">What is happening now</span>
-          <h1 className="text-white font-bold text-2xl md:text-4xl md:p-4 w-auto ">KINDLEGATE FOUNDATION IN COLLABORATION WITH ...</h1>
+          <h1 className="text-white font-bold text-2xl md:text-4xl md:p-4 w-auto ">GATE FOUNDATION IN COLLABORATION WITH ...</h1>
         </div>
         <div className="md:w-1/2 ">
           <p className='md:p-4'>

@@ -6,7 +6,7 @@ export default function Section5(props){
      <div className='yellow pb-10  mt-0 flex flex-row relative h-auto lg:overflow-hidden sm:pl-10 '>
       <div  className="w-3/4 mt-4 pl-3 h-auto">
         <Link to={props.link}>
-          <button className="blue mt-10 mb-5 hover:bg-blue-700 text-black font-bold py-2 px-4 rounded-full ">
+          <button className="bg-blue-900 mt-10 mb-5 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full ">
             {props.btn}
           </button>
         </Link>

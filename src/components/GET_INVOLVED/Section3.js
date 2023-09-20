@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 export default function Section3(){
   return(
     <>
-      <div className="flex flex-wrap backG text-white rounded-t-xl h-auto items-center">
+      <div className="flex flex-wrap bg-blue-900 text-white rounded-t-xl h-auto items-center">
         <div className="w-full md:w-1/3 p-4 text-center">
           <div className='flex justify-center py-10'>
             <Link to="/GET_INVOLVED/Volunteer">
