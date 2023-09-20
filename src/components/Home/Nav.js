@@ -11,11 +11,17 @@ const Nav = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const location = useLocation();
 
-  
 
+
+  const handleOffcanvasClose = () => {
+    console.log('Toggling Offcanvas');
+    setShowOffcanvas(!showOffcanvas);
+  };
+  
   const toggleOffcanvas = () => {
     setShowOffcanvas(!showOffcanvas);
   };
+  
 
   useEffect(() => {
     const handleScroll = () => {
@@ -208,7 +214,7 @@ const Nav = () => {
       >
         ☰
       </button>
-      {showOffcanvas && <Offcanvas onClose={toggleOffcanvas} />}
+      {showOffcanvas && <Offcanvas onClose={handleOffcanvasClose} />}
       
     </nav>
     

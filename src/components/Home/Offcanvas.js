@@ -12,15 +12,22 @@ const Offcanvas = ({ onClose }) => {
     }
   };
 
+  const handleOffcanvasClose = () => {
+    console.log('handleOffcanvasClose called'); 
+    
+    onClose(); 
+  };
+  
   return (
     <div className="lg:hidden fixed top-0 right-0 h-full z-30 w-full bg-gray-800 text-white transform transition-transform duration-300 overflow-y-auto">
       <button
-        className="absolute top-4 right-4 text-white text-2xl"
-        onClick={onClose}
+        className="absolute top-0 right-4 text-white text-2xl"
+        onClick={handleOffcanvasClose}
       >
         &times;
       </button>
-      <ul className="p-4 space-y-2">
+
+      <ul className="p-4 space-y-2 mt-5">
         <li className="relative">
             <Link
               to="/"
